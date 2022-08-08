@@ -1,8 +1,10 @@
-<h1>Stupid Coaching</h1>
-<p>Ask your coach anything</p>
+<div class="container mt-4 mb-4">
+  <h1>Stupid Coaching</h1>
+  <p>Ask your coach anything</p>
+</div>
 <div class="container">
-  <form action="/answer" method="get" data-turbo="false">
+  <form class="d-flex" action="/answer" method="get" data-turbo="false">
     <input class="form-control" type="text" name="question">
-    <input class="form-control" type="submit" value="Ask!">
+    <input class="btn btn-primary" type="submit" value="Ask!">
   </form>
 </div>
